@@ -10,7 +10,9 @@ on:
       - ?.?.[xX]
 
 permissions:
-  contents: read # for checkout
+  contents: write # to be able to publish a GitHub release
+  issues: write # to be able to comment on released issues
+  pull-requests: write # to be able to comment on released pull requests
 
 jobs:
   call-reusable-workflow:
