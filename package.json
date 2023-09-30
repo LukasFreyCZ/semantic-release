@@ -1,0 +1,10 @@
+{
+  "name": "@guava/semantic-release",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "semantic-release": "^22.0.5"
+  }
+}
